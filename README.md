@@ -34,3 +34,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Plan: 1. Include Search to search for artist id based on Name, 2. Include input box csv of artist ids, comma separated, 3. Get all albums for each artist, 4. Get the latest album for each artist, 5. Get all songs for that album, 6. Get latest song for that album
