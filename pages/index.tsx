@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         <h1 style={headingStyle}>Read Me</h1>
         <p style={paragraphStyle}>
           Welcome to the Spotify Artist Analyzer application. This application
-          utilizes the Spotify's web API:{" "}
+          utilizes the Spotifys web API:{" "}
           <a
             href="https://developer.spotify.com/documentation/web-api"
             target="_blank"
@@ -27,9 +27,9 @@ const Home: React.FC = () => {
         </p>
         <p style={paragraphStyle}>
           <strong>Manual</strong>: To use the analysis, the user must provide a
-          CSV file with one column named "artist_id" (without quotation marks),
+          CSV file with one column named artist_id,
           where for each row, an artist ID is provided. To simplify the search
-          of an artist's ID, a search function is provided to search an artist
+          of an artists ID, a search function is provided to search an artist
           by name. Due to duplicated names of artists, some artists must be
           searched directly in the Spotify web app - the artist ID is provided
           in the last part of the URI.
